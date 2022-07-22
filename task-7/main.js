@@ -1,9 +1,14 @@
-const prompt = require('prompt');
-prompt.start();
+let n = 10
+
+function sqrt (x) {
+
+    for (let i = 1;i**2<x; i++) {
+     
+            console.log(i**2)
+       
+    }
 
 
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+}
+
+sqrt(10)
