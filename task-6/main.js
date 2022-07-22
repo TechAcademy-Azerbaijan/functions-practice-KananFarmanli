@@ -1,9 +1,11 @@
-const prompt = require('prompt');
-prompt.start();
+function s(x,y){
 
 
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+return console.log(x*y)
+
+}
+
+let a = 3
+let b = 4
+
+s(a,b)
